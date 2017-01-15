@@ -2,8 +2,6 @@
 
 whois-parser-go is a simple Go module for whois info parser.
 
-[![Build Status](https://secure.travis-ci.org/likexian/whois-parser-go.png)](https://secure.travis-ci.org/likexian/whois-parser-go)
-
 ## Overview
 
 It will parse the provided whois information and return a readable data struct.
@@ -12,12 +10,12 @@ It will parse the provided whois information and return a readable data struct.
 
 ## Installation
 
-    go get github.com/likexian/whois-parser-go
+    go get github.com/easyconn/whois-parser-go
 
 ## Importing
 
     import (
-        "github.com/likexian/whois-parser-go"
+        "github.com/easyconn/whois-parser-go"
     )
 
 ## Documentation
@@ -52,7 +50,7 @@ Apache License, Version 2.0
 
 ## Whois info query in Go
 
-Please refer to [whois-go](https://github.com/likexian/whois-go)
+Please refer to [whois-go](https://github.com/easyconn/whois-go)
 
 ## About
 
