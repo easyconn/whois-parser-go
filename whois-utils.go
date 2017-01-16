@@ -90,6 +90,7 @@ func TransferName(name string) (string) {
     name = strings.Replace(name, "domain registered", "create", -1)
     name = strings.Replace(name, "commencement date", "create", -1)
     name = strings.Replace(name, "create date", "create", -1)
+    name = strings.Replace(name, "Registration Time", "create", -1)
 
     name = strings.Replace(name, "updated", "update", -1)
     name = strings.Replace(name, "modified", "update", -1)
@@ -105,6 +106,7 @@ func TransferName(name string) (string) {
     name = strings.Replace(name, "registrar expire", "expire", -1)
     name = strings.Replace(name, "domain expires", "expire", -1)
     name = strings.Replace(name, "expire date", "expire", -1)
+    name = strings.Replace(name, "Expiration Time", "expire", -1)
 
     name = strings.Replace(name, "owner", "registrant", -1)
     name = strings.Replace(name, "administrative", "admin", -1)
